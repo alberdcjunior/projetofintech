@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+body {
+    background-color:#ff8501;
+}
+
+#logopagina {
+    width: 180px;
+    margin: 10px 135px;
+}
+/* style.css da pagina fintech-index*/
+.cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#menu {
+    width: 85px;
+    height: 99px;
+    margin: 0 10px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+
+}
+
+#menu:hover {
+    border-color: #ffffff;
+    border-style: groove;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.icones {
+    font-size: 40px;
+    margin: auto;
+    
+}
+
+#botaologin {
+    width: 99px;
+    height: 99px;
+    margin: 0 60px 0 200px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+}
+
+div a {
+    margin: auto;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+
+#botaologin:hover {
+    border-color: #ffffff;
+    border-style: groove;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#botaocadastro {
+    width: 180px;
+    height: 99px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+}
+
+#botaocadastro:hover {
+    border-color: #ffffff;
+    border-style: groove;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 99px;
+    margin: 0 0 0 1180px;
+}
+
+#baner {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(#ffffff8a, #ff840163), url(../images/pexels-asad-photo-maldives-3155666.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+#baner h2 {
+    font-size: 50px;
+    margin: 160px 30px 5px;
+    color: #fff;
+}
+
+#baner h4 {
+    font-size: 30px;
+    margin: 5px 30px 45px;
+    color: #fff;
+}
+
+#baner p {
+    margin: 30px 30px 60px;
+    width: 40%;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#a {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 40px 0 20px;
+}
+
+#opicoes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lista {
+    width: 12%;
+    height: 320px;
+    margin: 30px 0 100px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 30px 10px;
+    box-shadow: 1px 1px 30px #ccc;
+    border-radius: 10px;
+}
+
+.lista:hover {
+    transform: scale(1.1);
+    color: #ff8501;
+}
+
+.servico {
+    font-size: 70px;
+    margin-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style.css da pagina fintech-login*/
+#baselogin {
+    width: 450px;
+    height: 550px;
+    margin: 40px auto;
+    
+}
+
+#cabecalhologin {
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#logingmail {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#oulogin {
+    text-align: center;
+}
+
+#toue {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#senhalogin {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto 30px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#entrar {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    margin: 20px 96px;
+    padding: 10px 100px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+#ainda {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#ircadastrese {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style.css da pagina fintech-cadastro*/
+#basecadastro {
+    width: 450px;
+    height: 850px;
+    margin: 40px auto;
+}
+
+
+#cabecalhocadastro {
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#cadastrogmail {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#oucadastro {
+    text-align: center;
+}
+
+#nome {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#telefone {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#email {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#data {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#cpf {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#senha {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#confirmar {
+    width: 400px;
+    height: 40px;
+    margin: 10px auto 30px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#fazercadastro {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    margin: 0 48.8px;
+    padding: 10px 80px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+#ja {
+    margin-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#irlogin {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
